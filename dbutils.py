@@ -1,10 +1,18 @@
 from pymongo import MongoClient
 import datetime
+from glob import iglob
+import os.path
+import pymongo
+import json
+import sys
+import itertools
+from itertools import islice, chain
 
 client = MongoClient('mongodb://localhost:27017/')
 nbadb = client['nba-database']
 
 games = nbadb.games
+team_names = {}
 
 def insert(game):
     game_id = games.insert(game)
@@ -64,7 +72,7 @@ def dump():
         print game
 
 def searchByOneTeam(team_name, current_date = datetime.datetime.utcnow()):
-    current_date = datetime.datetime(2017, 2, 1)
+    #current_date = datetime.datetime(2017, 2, 1)
     last_game = None
     next_game = None
     res_games = list(nbadb.games.find({"$and" : [{"$or" : [ {"vt": team_name}, {"ht": team_name} ]}, {"date": {"$lte" : current_date}}]}) \
@@ -75,12 +83,8 @@ def searchByOneTeam(team_name, current_date = datetime.datetime.utcnow()):
         game = res_games[-1] # after sort, the larger date will be at the end
         if (game['time'] != 'FINAL'): #haven't start yet
             next_game = game
-            #print "Next Game is:"
-            #print next_game
         else:
             last_game = game
-            #print "Last Game is:"
-            #print last_game
 
     if (next_game == None): #today's game has finished, so try to find future game
         res_games = list(nbadb.games.find({"$and" : [{"$or" : [ {"vt": team_name}, {"ht": team_name} ]}, {"date": {"$gt" : current_date}}]}) \
@@ -109,18 +113,15 @@ def searchByOneTeam(team_name, current_date = datetime.datetime.utcnow()):
 def searchByTwoTeams(team_name_1, team_name_2, current_date):
     return "test"
 
-# for post in mydb.posts.find({"author": "Adja"}):
-#     print post
-
-# print mydb.posts.count()
-
-# for post in mydb.mytable.find({"date": {"$lt": datetime.datetime(2015, 12, 1)}}).sort("author"):
-#     print post
-
+def load(file):
+    with open(file) as f:
+        for line in f:
+            # slice the next 6 lines from the iterable, as a list.
+            lines = [line] + list(itertools.islice(f, 8))
+            game = json.loads(''.join(lines))
+            print insert(game)
 
 if __name__ == "__main__":
-    current_date = datetime.datetime(2017, 2, 1)
-    init()
-    #dump()
-    searchByOneTeam("GSW")
+    drop()
+    load(sys.argv[1])
     drop()
