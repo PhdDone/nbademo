@@ -182,7 +182,7 @@ if __name__ == "__main__":
     #loadAll()
     #load(sys.argv[1])
     #drop()
-    #delete()
+    delete()
     #update("Denver Nuggets", 108, "Minnesota Timberwolves", 111, 2017, 1, 22)
     #update("Phoenix Suns", 115, "Toronto Raptors", 103, 2017, 1, 22)
     #update("Los Angeles Lakers", 73, "Dallas Mavericks", 122, 2017, 1, 22)
