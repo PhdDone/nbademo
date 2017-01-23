@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from flask import Flask
 from flask import jsonify
 from flask import request
@@ -27,6 +28,9 @@ def send(request, response):
     print(response['text'])
     global bot_response
     bot_response = response['text']
+    #TODO: remove trail {}
+    bot_response = bot_response.split('{')[0]
+    print bot_response
 
 def get_forecast(request):
     context = request['context']
@@ -43,6 +47,13 @@ def get_forecast(request):
             del context['forecast']
 
     return context
+
+def normDate(date):
+    date = date.split(" ")[0]
+    date = date.split("-")
+    m = date[1]
+    d = date[2]
+    return m + "月" + d + "日"
 
 def get_next_game(request):
     context = request['context']
@@ -66,7 +77,7 @@ def get_next_game(request):
             date = str(next_game['date'])
             time = next_game['time']
             context['comp'] = comp
-            context['date'] = date
+            context['date'] = normDate(date)
             context['time'] = time
         else:
             context['noNextGame'] = True
