@@ -154,7 +154,7 @@ def loadAll():
 def test():
     print searchByOneTeam("GSW")
 
-def update(ht, hs, vt, vs, year, month, day):
+def update(vt, vs, ht, hs, year, month, day):
     game_0 = {
         "vt": vt,
         "ht" : ht,
@@ -173,11 +173,18 @@ def delete():
     nbadb.games.delete_many({"ht" : "CAV"})
     nbadb.games.delete_many({"vt" : "CAV"})
 
+def checkDate(year, month, day):
+    res_games = list(nbadb.games.find({"date" : datetime.datetime(year, month, day)}))
+    for g in res_games:
+        print g['vt'], g['vs'], g['ht'], g['hs'], g['date']
 if __name__ == "__main__":
     #drop()
     #loadAll()
     #load(sys.argv[1])
     #drop()
     #delete()
-    update("Minnesota Timberwolves", 111, "Denver Nuggets", 108, 2017, 1, 22)
+    #update("Denver Nuggets", 108, "Minnesota Timberwolves", 111, 2017, 1, 22)
+    #update("Phoenix Suns", 115, "Toronto Raptors", 103, 2017, 1, 22)
+    #update("Los Angeles Lakers", 73, "Dallas Mavericks", 122, 2017, 1, 22)
+    checkDate(2017, 1, 22)
     #test()
