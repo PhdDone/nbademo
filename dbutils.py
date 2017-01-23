@@ -22,49 +22,49 @@ def drop():
     nbadb.games.drop()
 
 def init():
-    game_0 = {
-        "vt": "GSW",
-        "ht" : "CAV",
-        "vs" : "188",
-        "hs" : "29",
-        "time" : "FINAL", #TODO: format time, final?
-        "date" : datetime.datetime(2017, 1, 30),
-        "created_date" : datetime.datetime.utcnow()
-        }
-    game_1 = {
-        "vt": "GSW",
-        "ht" : "CAV",
-        "vs" : "123",
-        "hs" : "30",
-        "time" : "FINAL", #TODO: format time, final?
-        "date" : datetime.datetime(2017, 2, 1),
-        "created_date" : datetime.datetime.utcnow()
-        }
-    game_2 = {
-        "vt": "GSW",
-        "ht" : "CAV",
-        "vs" : "-1",
-        "hs" : "-1",
-        "time" : "17:00 ET", #TODO: format time, final?
-        "date" : datetime.datetime(2017, 2, 6),
-        "created_date" : datetime.datetime.utcnow()
-        }
+#     game_0 = {
+#         "vt": "GSW",
+#         "ht" : "CAV",
+#         "vs" : "188",
+#         "hs" : "29",
+#         "time" : "FINAL", #TODO: format time, final?
+#         "date" : datetime.datetime(2017, 1, 30),
+#         "created_date" : datetime.datetime.utcnow()
+#         }
+#     game_1 = {
+#         "vt": "GSW",
+#         "ht" : "CAV",
+#         "vs" : "123",
+#         "hs" : "30",
+#         "time" : "FINAL", #TODO: format time, final?
+#         "date" : datetime.datetime(2017, 2, 1),
+#         "created_date" : datetime.datetime.utcnow()
+#         }
+#     game_2 = {
+#         "vt": "GSW",
+#         "ht" : "CAV",
+#         "vs" : "-1",
+#         "hs" : "-1",
+#         "time" : "17:00 ET", #TODO: format time, final?
+#         "date" : datetime.datetime(2017, 2, 6),
+#         "created_date" : datetime.datetime.utcnow()
+#         }
 
-    game_3 = {
-        "vt": "GSW",
-        "ht" : "CAV",
-        "vs" : "-1",
-        "hs" : "-1",
-        "time" : "17:00 ET", #TODO: format time, final?
-        "date" : datetime.datetime(2017, 2, 7),
-        "created_date" : datetime.datetime.utcnow()
-        }
-    id = insert(game_1)
-    insert(game_0)
-    insert(game_2)
-    insert(game_3)
-    print id
-
+#     game_3 = {
+#         "vt": "GSW",
+#         "ht" : "CAV",
+#         "vs" : "-1",
+#         "hs" : "-1",
+#         "time" : "17:00 ET", #TODO: format time, final?
+#         "date" : datetime.datetime(2017, 2, 7),
+#         "created_date" : datetime.datetime.utcnow()
+#         }
+#     id = insert(game_1)
+#     insert(game_0)
+#     insert(game_2)
+#     insert(game_3)
+#     print id
+    print "test"
 # return last game and next game of this team, given the current date
 
 def dump():
