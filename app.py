@@ -102,9 +102,9 @@ def run_query():
     message = request.args.get('query')
     session_id = request.args.get('sid')
     print session_id
-    print message
+    print message.encode('utf-8')
     context = client.run_actions(session_id, message)
     return jsonify({'result' : context})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=9005, debug=True)

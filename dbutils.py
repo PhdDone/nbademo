@@ -152,10 +152,30 @@ def loadAll():
         load(fname)
 
 def test():
-    print searchByOneTeam("Golden State Warriors")
+    print searchByOneTeam("GSW")
+
+def update(ht, hs, vt, vs, year, month, day):
+    game_0 = {
+        "vt": vt,
+        "ht" : ht,
+        "vs" : vs,
+        "hs" : hs,
+        "time" : "FINAL", #TODO: format time, final?
+        "date" : datetime.datetime(year, month, day),
+        "created_date" : datetime.datetime.utcnow()
+        }
+    
+    
+def delete():
+    print nbadb.games.delete_many({"ht" : "GSW"})
+    nbadb.games.delete_many({"vt" : "GSW"})
+    nbadb.games.delete_many({"ht" : "CAV"})
+    nbadb.games.delete_many({"vt" : "CAV"})
+
 if __name__ == "__main__":
     #drop()
     #loadAll()
     #load(sys.argv[1])
     #drop()
+    #delete()
     test()
