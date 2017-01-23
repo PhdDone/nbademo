@@ -85,9 +85,10 @@ def searchByTeamAndDate(team_name, date):
 # GSW's prev game
 # GSW's next game
 def searchByOneTeam(team_name, current_date = datetime.datetime.utcnow() - datetime.timedelta(hours=4)):
+    current_date = datetime.datetime(current_date.year, current_date.month, current_date.day)
     last_game = None
     next_game = None
-    print len(list(nbadb.games.find({"vt": team_name}))) #bug, update date format!!!
+    print len(list(nbadb.games.find({"vt": team_name}))) #bug should, right now today's game is always next game, fix!!
     res_games = list(nbadb.games.find({"$and" : [{"$or" : [ {"vt": team_name}, {"ht": team_name} ]}, {"date": {"$lte" : current_date}}]}) \
                     .sort("date"))
     if (len(res_games) == 0):
@@ -111,6 +112,7 @@ def searchByOneTeam(team_name, current_date = datetime.datetime.utcnow() - datet
                     break
                 print "No future game found"
     else: #today's game hasn't finished yet, so try to find the prev game
+        print current_date
         res_games = list(nbadb.games.find({"$and" : [{"$or" : [ {"vt": team_name}, {"ht": team_name} ]}, {"date": {"$lt" : current_date}}]}) \
                     .sort("date"))
         if (len(res_games) == 0):
@@ -182,9 +184,9 @@ if __name__ == "__main__":
     #loadAll()
     #load(sys.argv[1])
     #drop()
-    delete()
-    #update("Denver Nuggets", 108, "Minnesota Timberwolves", 111, 2017, 1, 22)
-    #update("Phoenix Suns", 115, "Toronto Raptors", 103, 2017, 1, 22)
-    #update("Los Angeles Lakers", 73, "Dallas Mavericks", 122, 2017, 1, 22)
-    checkDate(2017, 1, 22)
+    # delete()
+    # update("Denver Nuggets", 108, "Minnesota Timberwolves", 111, 2017, 1, 22)
+    # update("Phoenix Suns", 115, "Toronto Raptors", 103, 2017, 1, 22)
+    # update("Los Angeles Lakers", 73, "Dallas Mavericks", 122, 2017, 1, 22)
+    # checkDate(2017, 1, 22)
     #test()
