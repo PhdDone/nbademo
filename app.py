@@ -12,6 +12,9 @@ import json
 
 app = Flask(__name__)
 
+# TODO: thread safe
+bot_response = ""
+
 def first_entity_value(entities, entity):
     if entity not in entities:
         return None
@@ -22,6 +25,8 @@ def first_entity_value(entities, entity):
 
 def send(request, response):
     print(response['text'])
+    global bot_response
+    bot_response = response['text']
 
 def get_forecast(request):
     context = request['context']
@@ -83,7 +88,7 @@ actions = {
         'getNextGame': get_next_game,
         }
 access_token = "MMTMEGIUJXBVS3PP3W6DOMVQ7LFWIKGR"
-dbutils.init()
+
 client = Wit(access_token=access_token, actions=actions)
 
 context = {}
@@ -103,8 +108,10 @@ def run_query():
     session_id = request.args.get('sid')
     print session_id
     print message.encode('utf-8')
-    context = client.run_actions(session_id, message, verbose=true)
-    return jsonify({'result' : context})
+    context = client.run_actions(session_id, message, verbose=False)
+    print bot_response
+    print "###"
+    return jsonify({'result' : context, 'message' : bot_response})
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=9005, debug=True)
