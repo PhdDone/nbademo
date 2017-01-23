@@ -103,7 +103,7 @@ def run_query():
     session_id = request.args.get('sid')
     print session_id
     print message.encode('utf-8')
-    context = client.run_actions(session_id, message)
+    context = client.run_actions(session_id, message, verbose=true)
     return jsonify({'result' : context})
 
 if __name__ == '__main__':
