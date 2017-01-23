@@ -48,7 +48,7 @@ def get_next_game(request):
 
     team = first_entity_value(entities, 'team')
     #TODO: add time
-    current_date = datetime.datetime(2017, 2, 1)
+    current_date = datetime.datetime(2017, 1, 22)
     print "#####"
     print team
     if team:

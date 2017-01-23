@@ -1,7 +1,9 @@
 import json
+import sys
+import os
+import glob
 
 Games = {}
-
 def splitTeamScore(ts):
     k = ts.rfind(" ")
     t = ts[:k]
@@ -10,6 +12,7 @@ def splitTeamScore(ts):
 
 def run(filename):
     file = open(filename, 'r')
+    outfile = open(filename+".json", 'w')
     content = file.readlines()
     index = 0;
     while index < len(content):
@@ -37,6 +40,7 @@ def run(filename):
 
         key = ht + vt + gdate
         if key in Games:
+            print key
             print "Error, dup key should not happen"
         else:
             Games[key] = game
@@ -45,8 +49,13 @@ def run(filename):
         index += 8
     for gk in Games.keys():    
         js = json.dumps(Games[gk], ensure_ascii=False, indent=4, sort_keys=True)
-        print(js)
+        outfile.write(js)
+        outfile.write('\n')
     
 
 if __name__ == "__main__":
-    run("DEC.txt")
+    path = "/Users/yuanzhedong/Documents/mobvoi/nba-crawler/nbademo/data/"
+    for fname in glob.glob(os.path.join(path,"*.txt")):
+        print fname
+        run(fname)
+

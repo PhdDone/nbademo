@@ -1,12 +1,11 @@
 from pymongo import MongoClient
 import datetime
-from glob import iglob
+import glob
 import os.path
 import pymongo
 import json
 import sys
 import itertools
-from itertools import islice, chain
 
 client = MongoClient('mongodb://localhost:27017/')
 nbadb = client['nba-database']
@@ -14,6 +13,7 @@ nbadb = client['nba-database']
 games = nbadb.games
 team_names = {}
 
+games_key = {}
 def insert(game):
     game_id = games.insert(game)
     return game_id
@@ -70,11 +70,24 @@ def init():
 def dump():
     for game in nbadb.games.find():
         print game
+#date is the server time(pacific time)
+def convertDatetoET(date):
+    date = date + datetime.timedelta(hours=3)
+    date = datetime.datetime(date.year, date.month, date.day)
+    return date
+# GSW's tomorrwo's game
+# TODO: test
+def searchByTeamAndDate(team_name, date):
+    date = convertDatetoET(date)
+    res_games = list(nbadb.games.find({"$and" : [{"date" : date}, { "$or" : [{"ht" : team_name}, {"vt" : team_name}] }]}))
 
-def searchByOneTeam(team_name, current_date = datetime.datetime.utcnow()):
-    #current_date = datetime.datetime(2017, 2, 1)
+# GSW's game
+# GSW's prev game
+# GSW's next game
+def searchByOneTeam(team_name, current_date = datetime.datetime.utcnow() - datetime.timedelta(hours=4)):
     last_game = None
     next_game = None
+    print len(list(nbadb.games.find({"vt": team_name}))) #bug, update date format!!!
     res_games = list(nbadb.games.find({"$and" : [{"$or" : [ {"vt": team_name}, {"ht": team_name} ]}, {"date": {"$lte" : current_date}}]}) \
                     .sort("date"))
     if (len(res_games) == 0):
@@ -119,9 +132,30 @@ def load(file):
             # slice the next 6 lines from the iterable, as a list.
             lines = [line] + list(itertools.islice(f, 8))
             game = json.loads(''.join(lines))
-            print insert(game)
+            game_key = game['vt'] + game['ht'] + game['date']
+            ymd = game['date'].split('-')
+            year = int(ymd[0])
+            month = int(ymd[1])
+            day = int(ymd[2])
+            game['date'] = datetime.datetime(year, month, day)
+            if game_key in games_key: #bug, why dup here??
+                #print file
+                print game_key
+            else:
+                insert(game)
+                games_key[game_key] = 1
+            #print insert(game)
 
+def loadAll():
+    path = "/Users/yuanzhedong/Documents/mobvoi/nba-crawler/nbademo/data/"
+    for fname in glob.glob(os.path.join(path,"*.txt.json")):
+        load(fname)
+
+def test():
+    print searchByOneTeam("Golden State Warriors")
 if __name__ == "__main__":
-    drop()
-    load(sys.argv[1])
-    drop()
+    #drop()
+    #loadAll()
+    #load(sys.argv[1])
+    #drop()
+    test()

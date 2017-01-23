@@ -10,3 +10,5 @@
 
 #load to db
 #python dbutils.py
+
+#start app
