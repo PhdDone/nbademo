@@ -16,6 +16,55 @@ app = Flask(__name__)
 # TODO: thread safe
 bot_response = ""
 
+eng2Chi = {
+    'Atlanta Hawks': '老鹰',
+    'Boston Celtics':  '凯尔特人',
+    'Brooklyn Nets': '篮网',
+    'Charlotte Hornets': '黄蜂',
+    'Chicago Bulls': '公牛',
+    'Cleveland Cavaliers':' 骑士',
+    'Dallas Mavericks' :'小牛',
+    'Denver Nuggets' :'掘金',
+    'Detroit Pistons':'活塞',
+    'Golden State Warriors':'勇士', 
+    'Houston Rockets':'火箭',
+    'Indiana Pacers':'步行者',
+    'LA Clippers':'快船',
+    'LA Lakers':'湖人',
+    'Memphis Grizzlies':'灰熊',
+    'Miami Heat':'热火',
+    'Milwaukee Bucks':'雄鹿',
+    'Minnesota Timberwolves':'森林狼',
+    'New Orleans Pelicans':'鹈鹕',
+    'New York Knicks':'尼克斯',
+    'Oklahoma City Thunder':'雷霆',
+    'Orlando Magic':'魔术',
+    'Philadelphia Sixers':'76人',
+    'Phoenix Suns': '太阳',
+    'Portland Trail Blazers':'开拓者',
+    'Sacramento Kings'  :'国王',
+    'San Antonio Spurs' :'马刺',
+    'Toronto Raptors' :'猛龙',
+    'Utah Jazz' :'爵士',
+    'Washington Wizards':'奇才',
+    }
+
+def cvEngtoChi(eteam):
+    global eng2Chi
+    return eng2Chi[eteam]
+
+def normTime(time):
+    time_chi = ''
+
+    if ' PM' not in time:
+        time_chi = "上午"
+    else:
+        time_chi = "下午"
+
+    time = time.split(' ')[0]
+    time_chi = time_chi.decode('utf8') + time
+    return time_chi
+
 def first_entity_value(entities, entity):
     if entity not in entities:
         return None
@@ -77,8 +126,10 @@ def get_next_game(request):
             date = str(next_game['date'])
             time = next_game['time']
             context['comp'] = comp
+            context['comp_chi'] = cvEngtoChi(comp)
+            context['team_chi'] = cvEngtoChi(team)
             context['date'] = normDate(date)
-            context['time'] = time
+            context['time'] = normTime(time)
         else:
             context['noNextGame'] = True
             print "no next game"
