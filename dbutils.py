@@ -189,4 +189,4 @@ if __name__ == "__main__":
     # update("Phoenix Suns", 115, "Toronto Raptors", 103, 2017, 1, 22)
     # update("Los Angeles Lakers", 73, "Dallas Mavericks", 122, 2017, 1, 22)
     # checkDate(2017, 1, 22)
-    #test()
+    test()
