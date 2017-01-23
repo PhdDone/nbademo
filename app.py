@@ -17,41 +17,50 @@ app = Flask(__name__)
 bot_response = ""
 
 eng2Chi = {
-    'Atlanta Hawks': '老鹰',
-    'Boston Celtics':  '凯尔特人',
-    'Brooklyn Nets': '篮网',
-    'Charlotte Hornets': '黄蜂',
-    'Chicago Bulls': '公牛',
-    'Cleveland Cavaliers':' 骑士',
-    'Dallas Mavericks' :'小牛',
-    'Denver Nuggets' :'掘金',
-    'Detroit Pistons':'活塞',
-    'Golden State Warriors':'勇士', 
-    'Houston Rockets':'火箭',
-    'Indiana Pacers':'步行者',
-    'LA Clippers':'快船',
-    'LA Lakers':'湖人',
-    'Memphis Grizzlies':'灰熊',
-    'Miami Heat':'热火',
-    'Milwaukee Bucks':'雄鹿',
-    'Minnesota Timberwolves':'森林狼',
-    'New Orleans Pelicans':'鹈鹕',
-    'New York Knicks':'尼克斯',
-    'Oklahoma City Thunder':'雷霆',
-    'Orlando Magic':'魔术',
-    'Philadelphia Sixers':'76人',
-    'Phoenix Suns': '太阳',
-    'Portland Trail Blazers':'开拓者',
-    'Sacramento Kings'  :'国王',
-    'San Antonio Spurs' :'马刺',
-    'Toronto Raptors' :'猛龙',
-    'Utah Jazz' :'爵士',
-    'Washington Wizards':'奇才',
+    'Atlanta Hawks': u'老鹰',
+    'Boston Celtics':  u'凯尔特人',
+    'Brooklyn Nets': u'篮网',
+    'Charlotte Hornets': u'黄蜂',
+    'Chicago Bulls': u'公牛',
+    'Cleveland Cavaliers': u'骑士',
+    'Dallas Mavericks' : u'小牛',
+    'Denver Nuggets' : u'掘金',
+    'Detroit Pistons': u'活塞',
+    'Golden State Warriors': u'勇士', 
+    'Houston Rockets': u'火箭',
+    'Indiana Pacers': u'步行者',
+    'Los Angeles Clippers': u'快船',
+    'Los Angeles Lakers': u'湖人',
+    'Memphis Grizzlies': u'灰熊',
+    'Miami Heat': u'热火',
+    'Milwaukee Bucks': u'雄鹿',
+    'Minnesota Timberwolves': u'森林狼',
+    'New Orleans Pelicans': u'鹈鹕',
+    'New York Knicks': u'尼克斯',
+    'Oklahoma City Thunder': u'雷霆',
+    'Orlando Magic': u'魔术',
+    'Philadelphia Sixers': u'76人',
+    'Phoenix Suns': u'太阳',
+    'Portland Trail Blazers': u'开拓者',
+    'Sacramento Kings'  : u'国王',
+    'San Antonio Spurs' : u'马刺',
+    'Toronto Raptors' : u'猛龙',
+    'Utah Jazz' : u'爵士',
+    'Washington Wizards': u'奇才',
     }
 
-def cvEngtoChi(eteam):
+def CvEngtoChi(eteam):
     global eng2Chi
     return eng2Chi[eteam]
+
+def CvChitoEng(chn):
+    global eng2Chi
+    for key in eng2Chi.keys():
+        if eng2Chi[key] == chn:
+            return key
+    print type(chn)
+    print "not found!!!"
+    return None
 
 def normTime(time):
     time_chi = ''
@@ -112,6 +121,8 @@ def get_next_game(request):
     #TODO: add time
     #current_date = datetime.datetime(2017, 2, 1)
     print team
+    team = CvChitoEng(team)
+    print team
     #TODO: add team word list
     if team:
         last_game, next_game = dbutils.searchByOneTeam(team)
@@ -126,8 +137,8 @@ def get_next_game(request):
             date = str(next_game['date'])
             time = next_game['time']
             context['comp'] = comp
-            context['comp_chi'] = cvEngtoChi(comp)
-            context['team_chi'] = cvEngtoChi(team)
+            context['comp_chi'] = CvEngtoChi(comp)
+            context['team_chi'] = CvEngtoChi(team)
             context['date'] = normDate(date)
             context['time'] = normTime(time)
         else:
