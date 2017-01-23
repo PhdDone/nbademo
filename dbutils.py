@@ -164,7 +164,8 @@ def update(ht, hs, vt, vs, year, month, day):
         "date" : datetime.datetime(year, month, day),
         "created_date" : datetime.datetime.utcnow()
         }
-    
+    print nbadb.games.remove({"vt": vt, "ht": ht, "date": datetime.datetime(year, month, day)})
+    print nbadb.games.insert(game_0)
     
 def delete():
     print nbadb.games.delete_many({"ht" : "GSW"})
@@ -178,4 +179,5 @@ if __name__ == "__main__":
     #load(sys.argv[1])
     #drop()
     #delete()
-    test()
+    update("Minnesota Timberwolves", 111, "Denver Nuggets", 108, 2017, 1, 22)
+    #test()
