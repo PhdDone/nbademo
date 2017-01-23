@@ -119,7 +119,10 @@ def do_action(request):
     context = request['context']
     entities = request['entities']
     print context
-    print entities['intent'][0]['value']
+    #print entities['intent'][0]['value']
+    intent = first_entity_value(entities, 'intent')
+    if intent == None:
+        return no_intent(request)
     #TODO: prev_game, next_game
     user_intent = entities['intent'][0]['value']
     if (user_intent == 'next_game'):
@@ -133,6 +136,11 @@ def do_action(request):
         logging.info("Try get prev game")
         context['welcome'] = False
         return get_prev_game(request)
+
+def no_intent(request):
+    context = request['context']
+    context['welcome'] = True #
+    return context
 
 def get_prev_game(request):
     context = request['context']
