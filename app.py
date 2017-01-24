@@ -18,6 +18,9 @@ app = Flask(__name__)
 # TODO: thread safe
 bot_response = ""
 
+# TODO: maintain own context
+prev_intent = None
+
 eng2Chi = {
     'Atlanta Hawks': u'老鹰',
     'Boston Celtics':  u'凯尔特人',
@@ -118,22 +121,36 @@ def normDate(date):
 def do_action(request):
     context = request['context']
     entities = request['entities']
+    global prev_intent
     print context
     #print entities['intent'][0]['value']
-    intent = first_entity_value(entities, 'intent')
-    if intent == None:
+    current_intent = first_entity_value(entities, 'intent')
+    #prev_intent = first_entity_value(context, 'prev_intent')
+    print  "current_intent"
+    print current_intent
+    if current_intent == None and prev_intent == None:
         return no_intent(request)
     #TODO: prev_game, next_game
-    user_intent = entities['intent'][0]['value']
+    #user_intent = entities['intent'][0]['value']
+    #e.g. prev_intent = next_game, current_intent = None
+    user_intent = current_intent
+    print "********"
+    print user_intent
+    print prev_intent
+    if (user_intent == None):
+        user_intent = prev_intent
     if (user_intent == 'next_game'):
         logging.info("Try get next game")
+        prev_intent = user_intent
         context['welcome'] = False
         return get_next_game(request)
     else: #intent = prev_game
         if (user_intent == "entrance"):
+            prev_intent = user_intent
             context['welcome'] = True
             return context
         logging.info("Try get prev game")
+        prev_intent = user_intent
         context['welcome'] = False
         return get_prev_game(request)
 
@@ -145,6 +162,8 @@ def no_intent(request):
 def get_prev_game(request):
     context = request['context']
     entities = request['entities']
+
+    context['prev_intent'] = 'prev_game'
 
     team = first_entity_value(entities, 'team')
     #TODO: add time
@@ -197,6 +216,8 @@ def get_prev_game(request):
 def get_next_game(request):
     context = request['context']
     entities = request['entities']
+
+    context['prev_intent'] = 'next_game'
 
     team = first_entity_value(entities, 'team')
     #TODO: add time
