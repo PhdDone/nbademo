@@ -63,7 +63,7 @@ def CvChitoEng(chn):
     for key in eng2Chi.keys():
         if eng2Chi[key] == chn:
             return key
-    print type(chn), chn
+    #print type(chn), chn
     print "team not found!!!"
     return None
 
@@ -168,7 +168,7 @@ def get_prev_game(request):
     team = first_entity_value(entities, 'team')
     #TODO: add time
     #current_date = datetime.datetime(2017, 2, 1)
-    print team
+    #print team
     team = CvChitoEng(team)
     print team
     #TODO: add team word list
