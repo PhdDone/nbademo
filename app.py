@@ -135,6 +135,7 @@ def do_action(request):
     #e.g. prev_intent = next_game, current_intent = None
     user_intent = current_intent
     print "********"
+    print datetime.datetime.now()
     print user_intent
     print prev_intent
     if (user_intent == None):

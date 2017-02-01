@@ -128,8 +128,8 @@ def searchByOneTeam(team_name, current_date = datetime.datetime.utcnow() - datet
 def searchByTwoTeams(team_name_1, team_name_2, current_date):
     return "test"
 
-def load(file):
-    with open(file) as f:
+def load(filename):
+    with open(filename) as f:
         for line in f:
             # slice the next 6 lines from the iterable, as a list.
             lines = [line] + list(itertools.islice(f, 8))
@@ -185,8 +185,15 @@ if __name__ == "__main__":
     #load(sys.argv[1])
     #drop()
     # delete()
-    # update("Denver Nuggets", 108, "Minnesota Timberwolves", 111, 2017, 1, 22)
-    # update("Phoenix Suns", 115, "Toronto Raptors", 103, 2017, 1, 22)
-    # update("Los Angeles Lakers", 73, "Dallas Mavericks", 122, 2017, 1, 22)
-    # checkDate(2017, 1, 22)
-    test()
+    #update("Washington Wizards", 109, "Charlotte Hornets", 99, 2017, 1, 23)
+    #update("San Antonio Spurs", 112, "Brooklyn Nets", 86, 2017, 1, 23)
+    #update("LA Clippers", 115, "Atlanta Hawks", 105, 2017, 1, 23)
+    #update("Golden State Warriors", 102, "Miami Heat", 105, 2017, 1, 23)
+    #update("Sacramento Kings", 109, "Detroit Pistons", 104, 2017, 1, 23)
+    #update("Houston Rockets", 114, "Milwaukee Bucks", 127, 2017, 1, 23)
+    #update("Cleveland Cavaliers", 122, "New Orleans Pelicans", 124, 2017, 1, 23)
+    #update("New York Knicks", 109, "Indiana Pacers", 103, 2017, 1, 23)
+    #update("Oklahoma City Thunder", 97, "Utah Jazz", 95, 2017, 1, 23)
+    
+    checkDate(2017, 1, 23)
+    #test()
