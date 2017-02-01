@@ -15,6 +15,11 @@ team_names = {}
 
 games_key = {}
 def insert(game):
+    vt = game["vt"]
+    ht = game["ht"]
+    date = game["date"]
+    #remove the old one and insert the new one
+    print nbadb.games.remove({"vt": vt, "ht": ht, "date": date})
     game_id = games.insert(game)
     return game_id
 
@@ -126,7 +131,14 @@ def searchByOneTeam(team_name, current_date = datetime.datetime.utcnow() - datet
     return last_game, next_game
 
 def searchByTwoTeams(team_name_1, team_name_2, current_date):
-    return "test"
+    current_date = datetime.datetime(current_date.year, current_date.month, current_date.day)
+    last_game = None
+    next_game = None
+    return "text"
+
+def searchByDate(date):
+    res_games = list(nbadb.games.find({"date": date}))
+    return res_games
 
 def load(file):
     with open(file) as f:
@@ -168,7 +180,7 @@ def update(vt, vs, ht, hs, year, month, day):
         }
     print nbadb.games.remove({"vt": vt, "ht": ht, "date": datetime.datetime(year, month, day)})
     print nbadb.games.insert(game_0)
-    
+
 def delete():
     print nbadb.games.delete_many({"ht" : "GSW"})
     nbadb.games.delete_many({"vt" : "GSW"})
@@ -182,11 +194,12 @@ def checkDate(year, month, day):
 if __name__ == "__main__":
     #drop()
     #loadAll()
-    #load(sys.argv[1])
+    checkDate(2017, 1, 31)
+    load(sys.argv[1])
     #drop()
     # delete()
     # update("Denver Nuggets", 108, "Minnesota Timberwolves", 111, 2017, 1, 22)
     # update("Phoenix Suns", 115, "Toronto Raptors", 103, 2017, 1, 22)
     # update("Los Angeles Lakers", 73, "Dallas Mavericks", 122, 2017, 1, 22)
-    # checkDate(2017, 1, 22)
-    test()
+    checkDate(2017, 1, 31)
+    # test()

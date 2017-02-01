@@ -9,7 +9,7 @@ def run(url, filename):
     driver = webdriver.Chrome()
     driver.get(url)
     #driver.get("http://stats.nba.com/schedule/#!?PD=N&Month=4")
-    f = open(filename, 'w')
+    f = open("./data/"+filename, 'w')
     results = driver.find_elements_by_xpath('/html/body/main/div[2]/div/div[2]/div/div/section')
 
     for i in range(1, len(results)):
@@ -26,7 +26,7 @@ def run(url, filename):
             f.write("######\n")
 
     driver.quit()
-    f.close
+    f.close()
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Process some integers.')

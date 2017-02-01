@@ -55,7 +55,7 @@ def run(filename):
 
 if __name__ == "__main__":
     path = "/Users/yuanzhedong/Documents/mobvoi/nba-crawler/nbademo/data/"
-    for fname in glob.glob(os.path.join(path,"*.txt")):
-        print fname
-        run(fname)
-
+    # for fname in glob.glob(os.path.join(path,"*.txt")):
+    #     print fname
+    #     run(fname)
+    run("./data/JAN.txt")
