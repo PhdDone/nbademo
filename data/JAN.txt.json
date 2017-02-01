@@ -1,0 +1,2007 @@
+{
+    "date": "2017-01-23", 
+    "hs": "105", 
+    "ht": "Miami Heat", 
+    "id": "game_0021600668", 
+    "time": "FINAL", 
+    "vs": "102", 
+    "vt": "Golden State Warriors"
+}
+{
+    "date": "2017-01-27", 
+    "hs": "86", 
+    "ht": "Atlanta Hawks", 
+    "id": "game_0021600702", 
+    "time": "FINAL", 
+    "vs": "112", 
+    "vt": "Washington Wizards"
+}
+{
+    "date": "2017-01-26", 
+    "hs": "109", 
+    "ht": "Oklahoma City Thunder", 
+    "id": "game_0021600690", 
+    "time": "FINAL", 
+    "vs": "98", 
+    "vt": "Dallas Mavericks"
+}
+{
+    "date": "2017-01-18", 
+    "hs": "104", 
+    "ht": "Washington Wizards", 
+    "id": "game_0021600628", 
+    "time": "FINAL", 
+    "vs": "101", 
+    "vt": "Memphis Grizzlies"
+}
+{
+    "date": "2017-01-19", 
+    "hs": "101", 
+    "ht": "LA Clippers", 
+    "id": "game_0021600640", 
+    "time": "FINAL", 
+    "vs": "104", 
+    "vt": "Minnesota Timberwolves"
+}
+{
+    "date": "2017-01-29", 
+    "hs": "107", 
+    "ht": "Cleveland Cavaliers", 
+    "id": "game_0021600712", 
+    "time": "FINAL", 
+    "vs": "91", 
+    "vt": "Oklahoma City Thunder"
+}
+{
+    "date": "2017-01-10", 
+    "hs": "121", 
+    "ht": "Houston Rockets", 
+    "id": "game_0021600574", 
+    "time": "FINAL", 
+    "vs": "114", 
+    "vt": "Charlotte Hornets"
+}
+{
+    "date": "2017-01-18", 
+    "hs": "106", 
+    "ht": "Boston Celtics", 
+    "id": "game_0021600630", 
+    "time": "FINAL", 
+    "vs": "117", 
+    "vt": "New York Knicks"
+}
+{
+    "date": "2017-01-25", 
+    "hs": "114", 
+    "ht": "Chicago Bulls", 
+    "id": "game_0021600683", 
+    "time": "FINAL", 
+    "vs": "119", 
+    "vt": "Atlanta Hawks"
+}
+{
+    "date": "2017-01-21", 
+    "hs": "123", 
+    "ht": "Denver Nuggets", 
+    "id": "game_0021600658", 
+    "time": "FINAL", 
+    "vs": "98", 
+    "vt": "LA Clippers"
+}
+{
+    "date": "2017-01-16", 
+    "hs": "104", 
+    "ht": "Milwaukee Bucks", 
+    "id": "game_0021600615", 
+    "time": "FINAL", 
+    "vs": "113", 
+    "vt": "Philadelphia 76ers"
+}
+{
+    "date": "2017-01-10", 
+    "hs": "100", 
+    "ht": "Sacramento Kings", 
+    "id": "game_0021600579", 
+    "time": "FINAL", 
+    "vs": "94", 
+    "vt": "Detroit Pistons"
+}
+{
+    "date": "2017-01-17", 
+    "hs": "109", 
+    "ht": "Miami Heat", 
+    "id": "game_0021600623", 
+    "time": "FINAL", 
+    "vs": "103", 
+    "vt": "Houston Rockets"
+}
+{
+    "date": "2017-01-06", 
+    "hs": "93", 
+    "ht": "Orlando Magic", 
+    "id": "game_0021600545", 
+    "time": "FINAL", 
+    "vs": "100", 
+    "vt": "Houston Rockets"
+}
+{
+    "date": "2017-01-25", 
+    "hs": "106", 
+    "ht": "Brooklyn Nets", 
+    "id": "game_0021600682", 
+    "time": "FINAL", 
+    "vs": "109", 
+    "vt": "Miami Heat"
+}
+{
+    "date": "2017-01-24", 
+    "hs": "92", 
+    "ht": "Orlando Magic", 
+    "id": "game_0021600677", 
+    "time": "FINAL", 
+    "vs": "100", 
+    "vt": "Chicago Bulls"
+}
+{
+    "date": "2017-01-03", 
+    "hs": "113", 
+    "ht": "Dallas Mavericks", 
+    "id": "game_0021600524", 
+    "time": "FINAL", 
+    "vs": "105", 
+    "vt": "Washington Wizards"
+}
+{
+    "date": "2017-01-27", 
+    "hs": "128", 
+    "ht": "Boston Celtics", 
+    "id": "game_0021600697", 
+    "time": "FINAL", 
+    "vs": "98", 
+    "vt": "Orlando Magic"
+}
+{
+    "date": "2017-01-06", 
+    "hs": "98", 
+    "ht": "Sacramento Kings", 
+    "id": "game_0021600551", 
+    "time": "FINAL", 
+    "vs": "106", 
+    "vt": "LA Clippers"
+}
+{
+    "date": "2017-01-28", 
+    "hs": "106", 
+    "ht": "Charlotte Hornets", 
+    "id": "game_0021600704", 
+    "time": "FINAL", 
+    "vs": "109", 
+    "vt": "Sacramento Kings"
+}
+{
+    "date": "2017-01-28", 
+    "hs": "116", 
+    "ht": "Miami Heat", 
+    "id": "game_0021600705", 
+    "time": "FINAL", 
+    "vs": "103", 
+    "vt": "Detroit Pistons"
+}
+{
+    "date": "2017-01-25", 
+    "hs": "103", 
+    "ht": "Charlotte Hornets", 
+    "id": "game_0021600687", 
+    "time": "FINAL", 
+    "vs": "113", 
+    "vt": "Golden State Warriors"
+}
+{
+    "date": "2017-01-01", 
+    "hs": "98", 
+    "ht": "Miami Heat", 
+    "id": "game_0021600509", 
+    "time": "FINAL", 
+    "vs": "107", 
+    "vt": "Detroit Pistons"
+}
+{
+    "date": "2017-01-11", 
+    "hs": "98", 
+    "ht": "Philadelphia 76ers", 
+    "id": "game_0021600580", 
+    "time": "FINAL", 
+    "vs": "97", 
+    "vt": "New York Knicks"
+}
+{
+    "date": "2017-01-29", 
+    "hs": "94", 
+    "ht": "New Orleans Pelicans", 
+    "id": "game_0021600714", 
+    "time": "FINAL", 
+    "vs": "107", 
+    "vt": "Washington Wizards"
+}
+{
+    "date": "2017-01-21", 
+    "hs": "113", 
+    "ht": "Detroit Pistons", 
+    "id": "game_0021600651", 
+    "time": "FINAL", 
+    "vs": "112", 
+    "vt": "Washington Wizards"
+}
+{
+    "date": "2017-01-26", 
+    "hs": "96", 
+    "ht": "Utah Jazz", 
+    "id": "game_0021600693", 
+    "time": "FINAL", 
+    "vs": "88", 
+    "vt": "Los Angeles Lakers"
+}
+{
+    "date": "2017-01-21", 
+    "hs": "105", 
+    "ht": "New York Knicks", 
+    "id": "game_0021600654", 
+    "time": "FINAL", 
+    "vs": "107", 
+    "vt": "Phoenix Suns"
+}
+{
+    "date": "2017-01-04", 
+    "hs": "94", 
+    "ht": "Cleveland Cavaliers", 
+    "id": "game_0021600532", 
+    "time": "FINAL", 
+    "vs": "106", 
+    "vt": "Chicago Bulls"
+}
+{
+    "date": "2017-01-15", 
+    "hs": "98", 
+    "ht": "Dallas Mavericks", 
+    "id": "game_0021600608", 
+    "time": "FINAL", 
+    "vs": "87", 
+    "vt": "Minnesota Timberwolves"
+}
+{
+    "date": "2017-01-30", 
+    "hs": "96", 
+    "ht": "Phoenix Suns", 
+    "id": "game_0021600723", 
+    "time": "FINAL", 
+    "vs": "115", 
+    "vt": "Memphis Grizzlies"
+}
+{
+    "date": "2017-01-05", 
+    "hs": "94", 
+    "ht": "New Orleans Pelicans", 
+    "id": "game_0021600539", 
+    "time": "FINAL", 
+    "vs": "99", 
+    "vt": "Atlanta Hawks"
+}
+{
+    "date": "2017-01-12", 
+    "hs": "95", 
+    "ht": "Brooklyn Nets", 
+    "id": "game_0021600586", 
+    "time": "FINAL", 
+    "vs": "104", 
+    "vt": "New Orleans Pelicans"
+}
+{
+    "date": "2017-01-18", 
+    "hs": "107", 
+    "ht": "Charlotte Hornets", 
+    "id": "game_0021600629", 
+    "time": "FINAL", 
+    "vs": "85", 
+    "vt": "Portland Trail Blazers"
+}
+{
+    "date": "2017-01-28", 
+    "hs": "95", 
+    "ht": "Utah Jazz", 
+    "id": "game_0021600708", 
+    "time": "FINAL", 
+    "vs": "102", 
+    "vt": "Memphis Grizzlies"
+}
+{
+    "date": "2017-01-06", 
+    "hs": "111", 
+    "ht": "Milwaukee Bucks", 
+    "id": "game_0021600548", 
+    "time": "FINAL", 
+    "vs": "116", 
+    "vt": "New York Knicks"
+}
+{
+    "date": "2017-01-31", 
+    "hs": "108", 
+    "ht": "San Antonio Spurs", 
+    "id": "game_0021600727", 
+    "time": "FINAL", 
+    "vs": "94", 
+    "vt": "Oklahoma City Thunder"
+}
+{
+    "date": "2017-01-06", 
+    "hs": "110", 
+    "ht": "Boston Celtics", 
+    "id": "game_0021600546", 
+    "time": "FINAL", 
+    "vs": "106", 
+    "vt": "Philadelphia 76ers"
+}
+{
+    "date": "2017-01-21", 
+    "hs": "123", 
+    "ht": "Boston Celtics", 
+    "id": "game_0021600650", 
+    "time": "FINAL", 
+    "vs": "127", 
+    "vt": "Portland Trail Blazers"
+}
+{
+    "date": "2017-01-04", 
+    "hs": "125", 
+    "ht": "Golden State Warriors", 
+    "id": "game_0021600534", 
+    "time": "FINAL", 
+    "vs": "117", 
+    "vt": "Portland Trail Blazers"
+}
+{
+    "date": "2017-01-10", 
+    "hs": "107", 
+    "ht": "Golden State Warriors", 
+    "id": "game_0021600578", 
+    "time": "FINAL", 
+    "vs": "95", 
+    "vt": "Miami Heat"
+}
+{
+    "date": "2017-01-08", 
+    "hs": "116", 
+    "ht": "Phoenix Suns", 
+    "id": "game_0021600565", 
+    "time": "FINAL", 
+    "vs": "120", 
+    "vt": "Cleveland Cavaliers"
+}
+{
+    "date": "2017-01-16", 
+    "hs": "101", 
+    "ht": "Phoenix Suns", 
+    "id": "game_0021600620", 
+    "time": "FINAL", 
+    "vs": "106", 
+    "vt": "Utah Jazz"
+}
+{
+    "date": "2017-01-29", 
+    "hs": "113", 
+    "ht": "Toronto Raptors", 
+    "id": "game_0021600715", 
+    "time": "FINAL", 
+    "vs": "114", 
+    "vt": "Orlando Magic"
+}
+{
+    "date": "2017-01-23", 
+    "hs": "86", 
+    "ht": "Brooklyn Nets", 
+    "id": "game_0021600666", 
+    "time": "FINAL", 
+    "vs": "112", 
+    "vt": "San Antonio Spurs"
+}
+{
+    "date": "2017-01-11", 
+    "hs": "117", 
+    "ht": "Boston Celtics", 
+    "id": "game_0021600583", 
+    "time": "FINAL", 
+    "vs": "108", 
+    "vt": "Washington Wizards"
+}
+{
+    "date": "2017-01-03", 
+    "hs": "110", 
+    "ht": "San Antonio Spurs", 
+    "id": "game_0021600525", 
+    "time": "FINAL", 
+    "vs": "82", 
+    "vt": "Toronto Raptors"
+}
+{
+    "date": "2017-01-10", 
+    "hs": "97", 
+    "ht": "Brooklyn Nets", 
+    "id": "game_0021600573", 
+    "time": "FINAL", 
+    "vs": "117", 
+    "vt": "Atlanta Hawks"
+}
+{
+    "date": "2017-01-12", 
+    "hs": "104", 
+    "ht": "New York Knicks", 
+    "id": "game_0021600587", 
+    "time": "FINAL", 
+    "vs": "89", 
+    "vt": "Chicago Bulls"
+}
+{
+    "date": "2017-01-17", 
+    "hs": "98", 
+    "ht": "Chicago Bulls", 
+    "id": "game_0021600624", 
+    "time": "FINAL", 
+    "vs": "99", 
+    "vt": "Dallas Mavericks"
+}
+{
+    "date": "2017-01-13", 
+    "hs": "108", 
+    "ht": "Sacramento Kings", 
+    "id": "game_0021600599", 
+    "time": "FINAL", 
+    "vs": "120", 
+    "vt": "Cleveland Cavaliers"
+}
+{
+    "date": "2017-01-23", 
+    "hs": "99", 
+    "ht": "Charlotte Hornets", 
+    "id": "game_0021600665", 
+    "time": "FINAL", 
+    "vs": "109", 
+    "vt": "Washington Wizards"
+}
+{
+    "date": "2017-01-11", 
+    "hs": "105", 
+    "ht": "LA Clippers", 
+    "id": "game_0021600584", 
+    "time": "FINAL", 
+    "vs": "96", 
+    "vt": "Orlando Magic"
+}
+{
+    "date": "2017-01-06", 
+    "hs": "112", 
+    "ht": "Washington Wizards", 
+    "id": "game_0021600544", 
+    "time": "FINAL", 
+    "vs": "105", 
+    "vt": "Minnesota Timberwolves"
+}
+{
+    "date": "2017-01-31", 
+    "hs": "120", 
+    "ht": "Los Angeles Lakers", 
+    "id": "game_0021600729", 
+    "time": "FINAL", 
+    "vs": "116", 
+    "vt": "Denver Nuggets"
+}
+{
+    "date": "2017-01-30", 
+    "hs": "113", 
+    "ht": "Boston Celtics", 
+    "id": "game_0021600721", 
+    "time": "FINAL", 
+    "vs": "109", 
+    "vt": "Detroit Pistons"
+}
+{
+    "date": "2017-01-05", 
+    "hs": "95", 
+    "ht": "Dallas Mavericks", 
+    "id": "game_0021600541", 
+    "time": "FINAL", 
+    "vs": "102", 
+    "vt": "Phoenix Suns"
+}
+{
+    "date": "2017-01-02", 
+    "hs": "98", 
+    "ht": "Milwaukee Bucks", 
+    "id": "game_0021600513", 
+    "time": "FINAL", 
+    "vs": "94", 
+    "vt": "Oklahoma City Thunder"
+}
+{
+    "date": "2017-01-27", 
+    "hs": "112", 
+    "ht": "Portland Trail Blazers", 
+    "id": "game_0021600703", 
+    "time": "FINAL", 
+    "vs": "109", 
+    "vt": "Memphis Grizzlies"
+}
+{
+    "date": "2017-01-22", 
+    "hs": "122", 
+    "ht": "Dallas Mavericks", 
+    "id": "game_0021600662", 
+    "time": "FINAL", 
+    "vs": "73", 
+    "vt": "Los Angeles Lakers"
+}
+{
+    "date": "2017-01-23", 
+    "hs": "103", 
+    "ht": "Indiana Pacers", 
+    "id": "game_0021600672", 
+    "time": "FINAL", 
+    "vs": "109", 
+    "vt": "New York Knicks"
+}
+{
+    "date": "2017-01-20", 
+    "hs": "93", 
+    "ht": "Philadelphia 76ers", 
+    "id": "game_0021600641", 
+    "time": "FINAL", 
+    "vs": "92", 
+    "vt": "Portland Trail Blazers"
+}
+{
+    "date": "2017-01-22", 
+    "hs": "103", 
+    "ht": "Toronto Raptors", 
+    "id": "game_0021600663", 
+    "time": "FINAL", 
+    "vs": "115", 
+    "vt": "Phoenix Suns"
+}
+{
+    "date": "2017-01-25", 
+    "hs": "120", 
+    "ht": "Boston Celtics", 
+    "id": "game_0021600681", 
+    "time": "FINAL", 
+    "vs": "109", 
+    "vt": "Houston Rockets"
+}
+{
+    "date": "2017-01-16", 
+    "hs": "126", 
+    "ht": "Golden State Warriors", 
+    "id": "game_0021600619", 
+    "time": "FINAL", 
+    "vs": "91", 
+    "vt": "Cleveland Cavaliers"
+}
+{
+    "date": "2017-01-01", 
+    "hs": "114", 
+    "ht": "Atlanta Hawks", 
+    "id": "game_0021600508", 
+    "time": "FINAL", 
+    "vs": "112", 
+    "vt": "San Antonio Spurs"
+}
+{
+    "date": "2017-01-31", 
+    "hs": "108", 
+    "ht": "Toronto Raptors", 
+    "id": "game_0021600725", 
+    "time": "FINAL", 
+    "vs": "106", 
+    "vt": "New Orleans Pelicans"
+}
+{
+    "date": "2017-01-02", 
+    "hs": "101", 
+    "ht": "Houston Rockets", 
+    "id": "game_0021600518", 
+    "time": "FINAL", 
+    "vs": "91", 
+    "vt": "Washington Wizards"
+}
+{
+    "date": "2017-01-18", 
+    "hs": "94", 
+    "ht": "Philadelphia 76ers", 
+    "id": "game_0021600627", 
+    "time": "FINAL", 
+    "vs": "89", 
+    "vt": "Toronto Raptors"
+}
+{
+    "date": "2017-01-22", 
+    "hs": "98", 
+    "ht": "Orlando Magic", 
+    "id": "game_0021600661", 
+    "time": "FINAL", 
+    "vs": "118", 
+    "vt": "Golden State Warriors"
+}
+{
+    "date": "2017-01-27", 
+    "hs": "110", 
+    "ht": "New York Knicks", 
+    "id": "game_0021600699", 
+    "time": "FINAL", 
+    "vs": "107", 
+    "vt": "Charlotte Hornets"
+}
+{
+    "date": "2017-01-25", 
+    "hs": "112", 
+    "ht": "Cleveland Cavaliers", 
+    "id": "game_0021600680", 
+    "time": "FINAL", 
+    "vs": "116", 
+    "vt": "Sacramento Kings"
+}
+{
+    "date": "2017-01-08", 
+    "hs": "95", 
+    "ht": "Brooklyn Nets", 
+    "id": "game_0021600560", 
+    "time": "FINAL", 
+    "vs": "105", 
+    "vt": "Philadelphia 76ers"
+}
+{
+    "date": "2017-01-27", 
+    "hs": "102", 
+    "ht": "Toronto Raptors", 
+    "id": "game_0021600698", 
+    "time": "FINAL", 
+    "vs": "86", 
+    "vt": "Milwaukee Bucks"
+}
+{
+    "date": "2017-01-20", 
+    "hs": "112", 
+    "ht": "Orlando Magic", 
+    "id": "game_0021600643", 
+    "time": "FINAL", 
+    "vs": "96", 
+    "vt": "Milwaukee Bucks"
+}
+{
+    "date": "2017-01-08", 
+    "hs": "88", 
+    "ht": "Memphis Grizzlies", 
+    "id": "game_0021600564", 
+    "time": "FINAL", 
+    "vs": "79", 
+    "vt": "Utah Jazz"
+}
+{
+    "date": "2017-01-13", 
+    "hs": "116", 
+    "ht": "Milwaukee Bucks", 
+    "id": "game_0021600594", 
+    "time": "FINAL", 
+    "vs": "108", 
+    "vt": "Miami Heat"
+}
+{
+    "date": "2017-01-03", 
+    "hs": "115", 
+    "ht": "Boston Celtics", 
+    "id": "game_0021600522", 
+    "time": "FINAL", 
+    "vs": "104", 
+    "vt": "Utah Jazz"
+}
+{
+    "date": "2017-01-01", 
+    "hs": "89", 
+    "ht": "Minnesota Timberwolves", 
+    "id": "game_0021600511", 
+    "time": "FINAL", 
+    "vs": "95", 
+    "vt": "Portland Trail Blazers"
+}
+{
+    "date": "2017-01-03", 
+    "hs": "99", 
+    "ht": "Phoenix Suns", 
+    "id": "game_0021600527", 
+    "time": "FINAL", 
+    "vs": "90", 
+    "vt": "Miami Heat"
+}
+{
+    "date": "2017-01-23", 
+    "hs": "104", 
+    "ht": "Detroit Pistons", 
+    "id": "game_0021600669", 
+    "time": "FINAL", 
+    "vs": "109", 
+    "vt": "Sacramento Kings"
+}
+{
+    "date": "2017-01-14", 
+    "hs": "109", 
+    "ht": "Washington Wizards", 
+    "id": "game_0021600603", 
+    "time": "FINAL", 
+    "vs": "93", 
+    "vt": "Philadelphia 76ers"
+}
+{
+    "date": "2017-01-15", 
+    "hs": "116", 
+    "ht": "Toronto Raptors", 
+    "id": "game_0021600606", 
+    "time": "FINAL", 
+    "vs": "101", 
+    "vt": "New York Knicks"
+}
+{
+    "date": "2017-01-28", 
+    "hs": "112", 
+    "ht": "Phoenix Suns", 
+    "id": "game_0021600709", 
+    "time": "FINAL", 
+    "vs": "123", 
+    "vt": "Denver Nuggets"
+}
+{
+    "date": "2017-01-25", 
+    "hs": "101", 
+    "ht": "Memphis Grizzlies", 
+    "id": "game_0021600685", 
+    "time": "FINAL", 
+    "vs": "99", 
+    "vt": "Toronto Raptors"
+}
+{
+    "date": "2017-01-07", 
+    "hs": "82", 
+    "ht": "Dallas Mavericks", 
+    "id": "game_0021600557", 
+    "time": "FINAL", 
+    "vs": "97", 
+    "vt": "Atlanta Hawks"
+}
+{
+    "date": "2017-01-28", 
+    "hs": "129", 
+    "ht": "Minnesota Timberwolves", 
+    "id": "game_0021600710", 
+    "time": "FINAL", 
+    "vs": "109", 
+    "vt": "Brooklyn Nets"
+}
+{
+    "date": "2017-01-21", 
+    "hs": "109", 
+    "ht": "Miami Heat", 
+    "id": "game_0021600655", 
+    "time": "FINAL", 
+    "vs": "97", 
+    "vt": "Milwaukee Bucks"
+}
+{
+    "date": "2017-01-02", 
+    "hs": "90", 
+    "ht": "Cleveland Cavaliers", 
+    "id": "game_0021600514", 
+    "time": "FINAL", 
+    "vs": "82", 
+    "vt": "New Orleans Pelicans"
+}
+{
+    "date": "2017-01-27", 
+    "hs": "88", 
+    "ht": "Chicago Bulls", 
+    "id": "game_0021600700", 
+    "time": "FINAL", 
+    "vs": "100", 
+    "vt": "Miami Heat"
+}
+{
+    "date": "2017-01-13", 
+    "hs": "101", 
+    "ht": "Atlanta Hawks", 
+    "id": "game_0021600597", 
+    "time": "FINAL", 
+    "vs": "103", 
+    "vt": "Boston Celtics"
+}
+{
+    "date": "2017-01-13", 
+    "hs": "105", 
+    "ht": "Houston Rockets", 
+    "id": "game_0021600595", 
+    "time": "FINAL", 
+    "vs": "110", 
+    "vt": "Memphis Grizzlies"
+}
+{
+    "date": "2017-01-24", 
+    "hs": "123", 
+    "ht": "Washington Wizards", 
+    "id": "game_0021600676", 
+    "time": "FINAL", 
+    "vs": "108", 
+    "vt": "Boston Celtics"
+}
+{
+    "date": "2017-01-01", 
+    "hs": "114", 
+    "ht": "Los Angeles Lakers", 
+    "id": "game_0021600512", 
+    "time": "FINAL", 
+    "vs": "123", 
+    "vt": "Toronto Raptors"
+}
+{
+    "date": "2017-01-04", 
+    "hs": "92", 
+    "ht": "Orlando Magic", 
+    "id": "game_0021600530", 
+    "time": "FINAL", 
+    "vs": "111", 
+    "vt": "Atlanta Hawks"
+}
+{
+    "date": "2017-01-25", 
+    "hs": "109", 
+    "ht": "Milwaukee Bucks", 
+    "id": "game_0021600684", 
+    "time": "FINAL", 
+    "vs": "114", 
+    "vt": "Philadelphia 76ers"
+}
+{
+    "date": "2017-01-18", 
+    "hs": "118", 
+    "ht": "Detroit Pistons", 
+    "id": "game_0021600633", 
+    "time": "FINAL", 
+    "vs": "95", 
+    "vt": "Atlanta Hawks"
+}
+{
+    "date": "2017-01-07", 
+    "hs": "92", 
+    "ht": "Minnesota Timberwolves", 
+    "id": "game_0021600556", 
+    "time": "FINAL", 
+    "vs": "94", 
+    "vt": "Utah Jazz"
+}
+{
+    "date": "2017-01-05", 
+    "hs": "121", 
+    "ht": "Indiana Pacers", 
+    "id": "game_0021600536", 
+    "time": "FINAL", 
+    "vs": "109", 
+    "vt": "Brooklyn Nets"
+}
+{
+    "date": "2017-01-19", 
+    "hs": "118", 
+    "ht": "Cleveland Cavaliers", 
+    "id": "game_0021600636", 
+    "time": "FINAL", 
+    "vs": "103", 
+    "vt": "Phoenix Suns"
+}
+{
+    "date": "2017-01-08", 
+    "hs": "101", 
+    "ht": "Milwaukee Bucks", 
+    "id": "game_0021600562", 
+    "time": "FINAL", 
+    "vs": "107", 
+    "vt": "Washington Wizards"
+}
+{
+    "date": "2017-01-17", 
+    "hs": "121", 
+    "ht": "Los Angeles Lakers", 
+    "id": "game_0021600626", 
+    "time": "FINAL", 
+    "vs": "127", 
+    "vt": "Denver Nuggets"
+}
+{
+    "date": "2017-01-12", 
+    "hs": "127", 
+    "ht": "Golden State Warriors", 
+    "id": "game_0021600590", 
+    "time": "FINAL", 
+    "vs": "107", 
+    "vt": "Detroit Pistons"
+}
+{
+    "date": "2017-01-09", 
+    "hs": "101", 
+    "ht": "Minnesota Timberwolves", 
+    "id": "game_0021600570", 
+    "time": "FINAL", 
+    "vs": "92", 
+    "vt": "Dallas Mavericks"
+}
+{
+    "date": "2017-01-07", 
+    "hs": "123", 
+    "ht": "Indiana Pacers", 
+    "id": "game_0021600552", 
+    "time": "FINAL", 
+    "vs": "109", 
+    "vt": "New York Knicks"
+}
+{
+    "date": "2017-01-28", 
+    "hs": "108", 
+    "ht": "Milwaukee Bucks", 
+    "id": "game_0021600706", 
+    "time": "FINAL", 
+    "vs": "112", 
+    "vt": "Boston Celtics"
+}
+{
+    "date": "2017-01-14", 
+    "hs": "114", 
+    "ht": "Utah Jazz", 
+    "id": "game_0021600604", 
+    "time": "FINAL", 
+    "vs": "107", 
+    "vt": "Orlando Magic"
+}
+{
+    "date": "2017-01-24", 
+    "hs": "103", 
+    "ht": "Denver Nuggets", 
+    "id": "game_0021600678", 
+    "time": "FINAL", 
+    "vs": "93", 
+    "vt": "Utah Jazz"
+}
+{
+    "date": "2017-01-16", 
+    "hs": "120", 
+    "ht": "LA Clippers", 
+    "id": "game_0021600621", 
+    "time": "FINAL", 
+    "vs": "98", 
+    "vt": "Oklahoma City Thunder"
+}
+{
+    "date": "2017-01-15", 
+    "hs": "97", 
+    "ht": "Los Angeles Lakers", 
+    "id": "game_0021600612", 
+    "time": "FINAL", 
+    "vs": "102", 
+    "vt": "Detroit Pistons"
+}
+{
+    "date": "2017-01-13", 
+    "hs": "96", 
+    "ht": "Minnesota Timberwolves", 
+    "id": "game_0021600596", 
+    "time": "FINAL", 
+    "vs": "86", 
+    "vt": "Oklahoma City Thunder"
+}
+{
+    "date": "2017-01-06", 
+    "hs": "119", 
+    "ht": "Golden State Warriors", 
+    "id": "game_0021600550", 
+    "time": "FINAL", 
+    "vs": "128", 
+    "vt": "Memphis Grizzlies"
+}
+{
+    "date": "2017-01-11", 
+    "hs": "103", 
+    "ht": "Oklahoma City Thunder", 
+    "id": "game_0021600581", 
+    "time": "FINAL", 
+    "vs": "95", 
+    "vt": "Memphis Grizzlies"
+}
+{
+    "date": "2017-01-21", 
+    "hs": "95", 
+    "ht": "Memphis Grizzlies", 
+    "id": "game_0021600656", 
+    "time": "FINAL", 
+    "vs": "119", 
+    "vt": "Houston Rockets"
+}
+{
+    "date": "2017-01-04", 
+    "hs": "104", 
+    "ht": "New York Knicks", 
+    "id": "game_0021600531", 
+    "time": "FINAL", 
+    "vs": "105", 
+    "vt": "Milwaukee Bucks"
+}
+{
+    "date": "2017-01-15", 
+    "hs": "112", 
+    "ht": "Brooklyn Nets", 
+    "id": "game_0021600609", 
+    "time": "FINAL", 
+    "vs": "137", 
+    "vt": "Houston Rockets"
+}
+{
+    "date": "2017-01-24", 
+    "hs": "106", 
+    "ht": "Toronto Raptors", 
+    "id": "game_0021600674", 
+    "time": "FINAL", 
+    "vs": "108", 
+    "vt": "San Antonio Spurs"
+}
+{
+    "date": "2017-01-18", 
+    "hs": "121", 
+    "ht": "Golden State Warriors", 
+    "id": "game_0021600634", 
+    "time": "FINAL", 
+    "vs": "100", 
+    "vt": "Oklahoma City Thunder"
+}
+{
+    "date": "2017-01-10", 
+    "hs": "107", 
+    "ht": "San Antonio Spurs", 
+    "id": "game_0021600575", 
+    "time": "FINAL", 
+    "vs": "109", 
+    "vt": "Milwaukee Bucks"
+}
+{
+    "date": "2017-01-10", 
+    "hs": "100", 
+    "ht": "Utah Jazz", 
+    "id": "game_0021600576", 
+    "time": "FINAL", 
+    "vs": "92", 
+    "vt": "Cleveland Cavaliers"
+}
+{
+    "date": "2017-01-19", 
+    "hs": "110", 
+    "ht": "New York Knicks", 
+    "id": "game_0021600638", 
+    "time": "FINAL", 
+    "vs": "113", 
+    "vt": "Washington Wizards"
+}
+{
+    "date": "2017-01-07", 
+    "hs": "117", 
+    "ht": "Boston Celtics", 
+    "id": "game_0021600553", 
+    "time": "FINAL", 
+    "vs": "108", 
+    "vt": "New Orleans Pelicans"
+}
+{
+    "date": "2017-01-08", 
+    "hs": "124", 
+    "ht": "Portland Trail Blazers", 
+    "id": "game_0021600559", 
+    "time": "FINAL", 
+    "vs": "125", 
+    "vt": "Detroit Pistons"
+}
+{
+    "date": "2017-01-25", 
+    "hs": "103", 
+    "ht": "Dallas Mavericks", 
+    "id": "game_0021600688", 
+    "time": "FINAL", 
+    "vs": "95", 
+    "vt": "New York Knicks"
+}
+{
+    "date": "2017-01-20", 
+    "hs": "102", 
+    "ht": "Atlanta Hawks", 
+    "id": "game_0021600647", 
+    "time": "FINAL", 
+    "vs": "93", 
+    "vt": "Chicago Bulls"
+}
+{
+    "date": "2017-01-04", 
+    "hs": "102", 
+    "ht": "Sacramento Kings", 
+    "id": "game_0021600535", 
+    "time": "FINAL", 
+    "vs": "107", 
+    "vt": "Miami Heat"
+}
+{
+    "date": "2017-01-03", 
+    "hs": "93", 
+    "ht": "Philadelphia 76ers", 
+    "id": "game_0021600521", 
+    "time": "FINAL", 
+    "vs": "91", 
+    "vt": "Minnesota Timberwolves"
+}
+{
+    "date": "2017-01-21", 
+    "hs": "109", 
+    "ht": "Utah Jazz", 
+    "id": "game_0021600659", 
+    "time": "FINAL", 
+    "vs": "100", 
+    "vt": "Indiana Pacers"
+}
+{
+    "date": "2017-01-02", 
+    "hs": "118", 
+    "ht": "Chicago Bulls", 
+    "id": "game_0021600517", 
+    "time": "FINAL", 
+    "vs": "111", 
+    "vt": "Charlotte Hornets"
+}
+{
+    "date": "2017-01-15", 
+    "hs": "118", 
+    "ht": "Sacramento Kings", 
+    "id": "game_0021600610", 
+    "time": "FINAL", 
+    "vs": "122", 
+    "vt": "Oklahoma City Thunder"
+}
+{
+    "date": "2017-01-29", 
+    "hs": "120", 
+    "ht": "Indiana Pacers", 
+    "id": "game_0021600713", 
+    "time": "FINAL", 
+    "vs": "101", 
+    "vt": "Houston Rockets"
+}
+{
+    "date": "2017-01-20", 
+    "hs": "107", 
+    "ht": "Memphis Grizzlies", 
+    "id": "game_0021600644", 
+    "time": "FINAL", 
+    "vs": "91", 
+    "vt": "Sacramento Kings"
+}
+{
+    "date": "2017-01-12", 
+    "hs": "108", 
+    "ht": "Phoenix Suns", 
+    "id": "game_0021600591", 
+    "time": "FINAL", 
+    "vs": "113", 
+    "vt": "Dallas Mavericks"
+}
+{
+    "date": "2017-01-10", 
+    "hs": "87", 
+    "ht": "Los Angeles Lakers", 
+    "id": "game_0021600577", 
+    "time": "FINAL", 
+    "vs": "108", 
+    "vt": "Portland Trail Blazers"
+}
+{
+    "date": "2017-01-05", 
+    "hs": "101", 
+    "ht": "Toronto Raptors", 
+    "id": "game_0021600537", 
+    "time": "FINAL", 
+    "vs": "93", 
+    "vt": "Utah Jazz"
+}
+{
+    "date": "2017-01-23", 
+    "hs": "95", 
+    "ht": "Utah Jazz", 
+    "id": "game_0021600673", 
+    "time": "FINAL", 
+    "vs": "97", 
+    "vt": "Oklahoma City Thunder"
+}
+{
+    "date": "2017-01-06", 
+    "hs": "127", 
+    "ht": "Los Angeles Lakers", 
+    "id": "game_0021600549", 
+    "time": "FINAL", 
+    "vs": "100", 
+    "vt": "Miami Heat"
+}
+{
+    "date": "2017-01-18", 
+    "hs": "100", 
+    "ht": "Sacramento Kings", 
+    "id": "game_0021600635", 
+    "time": "FINAL", 
+    "vs": "106", 
+    "vt": "Indiana Pacers"
+}
+{
+    "date": "2017-01-08", 
+    "hs": "98", 
+    "ht": "LA Clippers", 
+    "id": "game_0021600561", 
+    "time": "FINAL", 
+    "vs": "86", 
+    "vt": "Miami Heat"
+}
+{
+    "date": "2017-01-13", 
+    "hs": "110", 
+    "ht": "Utah Jazz", 
+    "id": "game_0021600600", 
+    "time": "FINAL", 
+    "vs": "77", 
+    "vt": "Detroit Pistons"
+}
+{
+    "date": "2017-01-05", 
+    "hs": "118", 
+    "ht": "Houston Rockets", 
+    "id": "game_0021600540", 
+    "time": "FINAL", 
+    "vs": "116", 
+    "vt": "Oklahoma City Thunder"
+}
+{
+    "date": "2017-01-12", 
+    "hs": "140", 
+    "ht": "Denver Nuggets", 
+    "id": "game_0021600589", 
+    "time": "FINAL", 
+    "vs": "112", 
+    "vt": "Indiana Pacers"
+}
+{
+    "date": "2017-01-26", 
+    "hs": "127", 
+    "ht": "Denver Nuggets", 
+    "id": "game_0021600692", 
+    "time": "FINAL", 
+    "vs": "120", 
+    "vt": "Phoenix Suns"
+}
+{
+    "date": "2017-01-16", 
+    "hs": "108", 
+    "ht": "Boston Celtics", 
+    "id": "game_0021600618", 
+    "time": "FINAL", 
+    "vs": "98", 
+    "vt": "Charlotte Hornets"
+}
+{
+    "date": "2017-01-24", 
+    "hs": "121", 
+    "ht": "Philadelphia 76ers", 
+    "id": "game_0021600675", 
+    "time": "FINAL", 
+    "vs": "110", 
+    "vt": "LA Clippers"
+}
+{
+    "date": "2017-01-02", 
+    "hs": "127", 
+    "ht": "Golden State Warriors", 
+    "id": "game_0021600520", 
+    "time": "FINAL", 
+    "vs": "119", 
+    "vt": "Denver Nuggets"
+}
+{
+    "date": "2017-01-10", 
+    "hs": "101", 
+    "ht": "Washington Wizards", 
+    "id": "game_0021600571", 
+    "time": "FINAL", 
+    "vs": "99", 
+    "vt": "Chicago Bulls"
+}
+{
+    "date": "2017-01-21", 
+    "hs": "115", 
+    "ht": "Cleveland Cavaliers", 
+    "id": "game_0021600657", 
+    "time": "FINAL", 
+    "vs": "118", 
+    "vt": "San Antonio Spurs"
+}
+{
+    "date": "2017-01-02", 
+    "hs": "89", 
+    "ht": "Brooklyn Nets", 
+    "id": "game_0021600515", 
+    "time": "FINAL", 
+    "vs": "101", 
+    "vt": "Utah Jazz"
+}
+{
+    "date": "2017-01-05", 
+    "hs": "115", 
+    "ht": "Detroit Pistons", 
+    "id": "game_0021600538", 
+    "time": "FINAL", 
+    "vs": "114", 
+    "vt": "Charlotte Hornets"
+}
+{
+    "date": "2017-01-21", 
+    "hs": "102", 
+    "ht": "Chicago Bulls", 
+    "id": "game_0021600660", 
+    "time": "FINAL", 
+    "vs": "99", 
+    "vt": "Sacramento Kings"
+}
+{
+    "date": "2017-01-08", 
+    "hs": "106", 
+    "ht": "Sacramento Kings", 
+    "id": "game_0021600566", 
+    "time": "FINAL", 
+    "vs": "117", 
+    "vt": "Golden State Warriors"
+}
+{
+    "date": "2017-01-20", 
+    "hs": "108", 
+    "ht": "Houston Rockets", 
+    "id": "game_0021600646", 
+    "time": "FINAL", 
+    "vs": "125", 
+    "vt": "Golden State Warriors"
+}
+{
+    "date": "2017-01-16", 
+    "hs": "125", 
+    "ht": "Denver Nuggets", 
+    "id": "game_0021600617", 
+    "time": "FINAL", 
+    "vs": "112", 
+    "vt": "Orlando Magic"
+}
+{
+    "date": "2017-01-30", 
+    "hs": "104", 
+    "ht": "Dallas Mavericks", 
+    "id": "game_0021600722", 
+    "time": "FINAL", 
+    "vs": "97", 
+    "vt": "Cleveland Cavaliers"
+}
+{
+    "date": "2017-01-20", 
+    "hs": "113", 
+    "ht": "Charlotte Hornets", 
+    "id": "game_0021600642", 
+    "time": "FINAL", 
+    "vs": "78", 
+    "vt": "Toronto Raptors"
+}
+{
+    "date": "2017-01-14", 
+    "hs": "113", 
+    "ht": "LA Clippers", 
+    "id": "game_0021600601", 
+    "time": "FINAL", 
+    "vs": "97", 
+    "vt": "Los Angeles Lakers"
+}
+{
+    "date": "2017-01-11", 
+    "hs": "119", 
+    "ht": "Minnesota Timberwolves", 
+    "id": "game_0021600582", 
+    "time": "FINAL", 
+    "vs": "105", 
+    "vt": "Houston Rockets"
+}
+{
+    "date": "2017-01-08", 
+    "hs": "111", 
+    "ht": "Los Angeles Lakers", 
+    "id": "game_0021600567", 
+    "time": "FINAL", 
+    "vs": "95", 
+    "vt": "Orlando Magic"
+}
+{
+    "date": "2017-01-30", 
+    "hs": "111", 
+    "ht": "Minnesota Timberwolves", 
+    "id": "game_0021600720", 
+    "time": "FINAL", 
+    "vs": "105", 
+    "vt": "Orlando Magic"
+}
+{
+    "date": "2017-01-31", 
+    "hs": "115", 
+    "ht": "Portland Trail Blazers", 
+    "id": "game_0021600728", 
+    "time": "FINAL", 
+    "vs": "98", 
+    "vt": "Charlotte Hornets"
+}
+{
+    "date": "2017-01-25", 
+    "hs": "105", 
+    "ht": "Portland Trail Blazers", 
+    "id": "game_0021600689", 
+    "time": "FINAL", 
+    "vs": "98", 
+    "vt": "Los Angeles Lakers"
+}
+{
+    "date": "2017-01-03", 
+    "hs": "116", 
+    "ht": "Detroit Pistons", 
+    "id": "game_0021600523", 
+    "time": "FINAL", 
+    "vs": "121", 
+    "vt": "Indiana Pacers"
+}
+{
+    "date": "2017-01-29", 
+    "hs": "142", 
+    "ht": "Atlanta Hawks", 
+    "id": "game_0021600711", 
+    "time": "FINAL", 
+    "vs": "139", 
+    "vt": "New York Knicks"
+}
+{
+    "date": "2017-01-02", 
+    "hs": "103", 
+    "ht": "New York Knicks", 
+    "id": "game_0021600516", 
+    "time": "FINAL", 
+    "vs": "115", 
+    "vt": "Orlando Magic"
+}
+{
+    "date": "2017-01-15", 
+    "hs": "111", 
+    "ht": "Atlanta Hawks", 
+    "id": "game_0021600607", 
+    "time": "FINAL", 
+    "vs": "98", 
+    "vt": "Milwaukee Bucks"
+}
+{
+    "date": "2017-01-05", 
+    "hs": "99", 
+    "ht": "Denver Nuggets", 
+    "id": "game_0021600543", 
+    "time": "FINAL", 
+    "vs": "127", 
+    "vt": "San Antonio Spurs"
+}
+{
+    "date": "2017-01-27", 
+    "hs": "124", 
+    "ht": "Cleveland Cavaliers", 
+    "id": "game_0021600695", 
+    "time": "FINAL", 
+    "vs": "116", 
+    "vt": "Brooklyn Nets"
+}
+{
+    "date": "2017-01-23", 
+    "hs": "127", 
+    "ht": "Milwaukee Bucks", 
+    "id": "game_0021600670", 
+    "time": "FINAL", 
+    "vs": "114", 
+    "vt": "Houston Rockets"
+}
+{
+    "date": "2017-01-07", 
+    "hs": "121", 
+    "ht": "Oklahoma City Thunder", 
+    "id": "game_0021600555", 
+    "time": "FINAL", 
+    "vs": "106", 
+    "vt": "Denver Nuggets"
+}
+{
+    "date": "2017-01-09", 
+    "hs": "96", 
+    "ht": "New York Knicks", 
+    "id": "game_0021600568", 
+    "time": "FINAL", 
+    "vs": "110", 
+    "vt": "New Orleans Pelicans"
+}
+{
+    "date": "2017-01-13", 
+    "hs": "109", 
+    "ht": "Portland Trail Blazers", 
+    "id": "game_0021600598", 
+    "time": "FINAL", 
+    "vs": "115", 
+    "vt": "Orlando Magic"
+}
+{
+    "date": "2017-01-03", 
+    "hs": "116", 
+    "ht": "Los Angeles Lakers", 
+    "id": "game_0021600528", 
+    "time": "FINAL", 
+    "vs": "102", 
+    "vt": "Memphis Grizzlies"
+}
+{
+    "date": "2017-01-23", 
+    "hs": "105", 
+    "ht": "Atlanta Hawks", 
+    "id": "game_0021600667", 
+    "time": "FINAL", 
+    "vs": "115", 
+    "vt": "LA Clippers"
+}
+{
+    "date": "2017-01-19", 
+    "hs": "99", 
+    "ht": "Miami Heat", 
+    "id": "game_0021600637", 
+    "time": "FINAL", 
+    "vs": "95", 
+    "vt": "Dallas Mavericks"
+}
+{
+    "date": "2017-01-30", 
+    "hs": "122", 
+    "ht": "Philadelphia 76ers", 
+    "id": "game_0021600266", 
+    "time": "FINAL", 
+    "vs": "119", 
+    "vt": "Sacramento Kings"
+}
+{
+    "date": "2017-01-31", 
+    "hs": "105", 
+    "ht": "Houston Rockets", 
+    "id": "game_0021600726", 
+    "time": "FINAL", 
+    "vs": "83", 
+    "vt": "Sacramento Kings"
+}
+{
+    "date": "2017-01-18", 
+    "hs": "111", 
+    "ht": "Houston Rockets", 
+    "id": "game_0021600632", 
+    "time": "FINAL", 
+    "vs": "92", 
+    "vt": "Milwaukee Bucks"
+}
+{
+    "date": "2017-01-16", 
+    "hs": "98", 
+    "ht": "Indiana Pacers", 
+    "id": "game_0021600616", 
+    "time": "FINAL", 
+    "vs": "95", 
+    "vt": "New Orleans Pelicans"
+}
+{
+    "date": "2017-01-13", 
+    "hs": "132", 
+    "ht": "Toronto Raptors", 
+    "id": "game_0021600592", 
+    "time": "FINAL", 
+    "vs": "113", 
+    "vt": "Brooklyn Nets"
+}
+{
+    "date": "2017-01-27", 
+    "hs": "118", 
+    "ht": "Philadelphia 76ers", 
+    "id": "game_0021600694", 
+    "time": "FINAL", 
+    "vs": "123", 
+    "vt": "Houston Rockets"
+}
+{
+    "date": "2017-01-11", 
+    "hs": "102", 
+    "ht": "Portland Trail Blazers", 
+    "id": "game_0021600585", 
+    "time": "FINAL", 
+    "vs": "86", 
+    "vt": "Cleveland Cavaliers"
+}
+{
+    "date": "2017-01-13", 
+    "hs": "102", 
+    "ht": "Philadelphia 76ers", 
+    "id": "game_0021600593", 
+    "time": "FINAL", 
+    "vs": "93", 
+    "vt": "Charlotte Hornets"
+}
+{
+    "date": "2017-01-29", 
+    "hs": "111", 
+    "ht": "Portland Trail Blazers", 
+    "id": "game_0021600718", 
+    "time": "FINAL", 
+    "vs": "113", 
+    "vt": "Golden State Warriors"
+}
+{
+    "date": "2017-01-20", 
+    "hs": "107", 
+    "ht": "Dallas Mavericks", 
+    "id": "game_0021600648", 
+    "time": "FINAL", 
+    "vs": "112", 
+    "vt": "Utah Jazz"
+}
+{
+    "date": "2017-01-15", 
+    "hs": "104", 
+    "ht": "Memphis Grizzlies", 
+    "id": "game_0021600611", 
+    "time": "FINAL", 
+    "vs": "108", 
+    "vt": "Chicago Bulls"
+}
+{
+    "date": "2017-01-23", 
+    "hs": "124", 
+    "ht": "New Orleans Pelicans", 
+    "id": "game_0021600671", 
+    "time": "FINAL", 
+    "vs": "122", 
+    "vt": "Cleveland Cavaliers"
+}
+{
+    "date": "2017-01-08", 
+    "hs": "122", 
+    "ht": "Toronto Raptors", 
+    "id": "game_0021600563", 
+    "time": "FINAL", 
+    "vs": "129", 
+    "vt": "Houston Rockets"
+}
+{
+    "date": "2017-01-29", 
+    "hs": "121", 
+    "ht": "Chicago Bulls", 
+    "id": "game_0021600716", 
+    "time": "FINAL", 
+    "vs": "108", 
+    "vt": "Philadelphia 76ers"
+}
+{
+    "date": "2017-01-14", 
+    "hs": "108", 
+    "ht": "Phoenix Suns", 
+    "id": "game_0021600605", 
+    "time": "FINAL", 
+    "vs": "105", 
+    "vt": "San Antonio Spurs"
+}
+{
+    "date": "2017-01-31", 
+    "hs": "117", 
+    "ht": "Washington Wizards", 
+    "id": "game_0021600724", 
+    "time": "FINAL", 
+    "vs": "101", 
+    "vt": "New York Knicks"
+}
+{
+    "date": "2017-01-16", 
+    "hs": "107", 
+    "ht": "New York Knicks", 
+    "id": "game_0021600613", 
+    "time": "FINAL", 
+    "vs": "108", 
+    "vt": "Atlanta Hawks"
+}
+{
+    "date": "2017-01-06", 
+    "hs": "108", 
+    "ht": "Brooklyn Nets", 
+    "id": "game_0021600547", 
+    "time": "FINAL", 
+    "vs": "116", 
+    "vt": "Cleveland Cavaliers"
+}
+{
+    "date": "2017-01-22", 
+    "hs": "111", 
+    "ht": "Minnesota Timberwolves", 
+    "id": "game_0021600664", 
+    "time": "FINAL", 
+    "vs": "108", 
+    "vt": "Denver Nuggets"
+}
+{
+    "date": "2017-01-07", 
+    "hs": "102", 
+    "ht": "San Antonio Spurs", 
+    "id": "game_0021600558", 
+    "time": "FINAL", 
+    "vs": "85", 
+    "vt": "Charlotte Hornets"
+}
+{
+    "date": "2017-01-01", 
+    "hs": "117", 
+    "ht": "Indiana Pacers", 
+    "id": "game_0021600510", 
+    "time": "FINAL", 
+    "vs": "104", 
+    "vt": "Orlando Magic"
+}
+{
+    "date": "2017-01-21", 
+    "hs": "110", 
+    "ht": "Atlanta Hawks", 
+    "id": "game_0021600653", 
+    "time": "FINAL", 
+    "vs": "93", 
+    "vt": "Philadelphia 76ers"
+}
+{
+    "date": "2017-01-03", 
+    "hs": "113", 
+    "ht": "Denver Nuggets", 
+    "id": "game_0021600526", 
+    "time": "FINAL", 
+    "vs": "120", 
+    "vt": "Sacramento Kings"
+}
+{
+    "date": "2017-01-04", 
+    "hs": "123", 
+    "ht": "Charlotte Hornets", 
+    "id": "game_0021600529", 
+    "time": "FINAL", 
+    "vs": "112", 
+    "vt": "Oklahoma City Thunder"
+}
+{
+    "date": "2017-01-28", 
+    "hs": "144", 
+    "ht": "Golden State Warriors", 
+    "id": "game_0021600707", 
+    "time": "FINAL", 
+    "vs": "98", 
+    "vt": "LA Clippers"
+}
+{
+    "date": "2017-01-27", 
+    "hs": "119", 
+    "ht": "New Orleans Pelicans", 
+    "id": "game_0021600701", 
+    "time": "FINAL", 
+    "vs": "103", 
+    "vt": "San Antonio Spurs"
+}
+{
+    "date": "2017-01-09", 
+    "hs": "94", 
+    "ht": "Chicago Bulls", 
+    "id": "game_0021600569", 
+    "time": "FINAL", 
+    "vs": "109", 
+    "vt": "Oklahoma City Thunder"
+}
+{
+    "date": "2017-01-10", 
+    "hs": "114", 
+    "ht": "Toronto Raptors", 
+    "id": "game_0021600572", 
+    "time": "FINAL", 
+    "vs": "106", 
+    "vt": "Boston Celtics"
+}
+{
+    "date": "2017-01-04", 
+    "hs": "115", 
+    "ht": "LA Clippers", 
+    "id": "game_0021600533", 
+    "time": "FINAL", 
+    "vs": "106", 
+    "vt": "Memphis Grizzlies"
+}
+{
+    "date": "2017-01-02", 
+    "hs": "109", 
+    "ht": "LA Clippers", 
+    "id": "game_0021600519", 
+    "time": "FINAL", 
+    "vs": "98", 
+    "vt": "Phoenix Suns"
+}
+{
+    "date": "2017-01-05", 
+    "hs": "118", 
+    "ht": "Portland Trail Blazers", 
+    "id": "game_0021600542", 
+    "time": "FINAL", 
+    "vs": "109", 
+    "vt": "Los Angeles Lakers"
+}
+{
+    "date": "2017-01-07", 
+    "hs": "123", 
+    "ht": "Chicago Bulls", 
+    "id": "game_0021600554", 
+    "time": "FINAL", 
+    "vs": "118", 
+    "vt": "Toronto Raptors"
+}
+{
+    "date": "2017-01-24", 
+    "hs": "111", 
+    "ht": "Phoenix Suns", 
+    "id": "game_0021600679", 
+    "time": "FINAL", 
+    "vs": "112", 
+    "vt": "Minnesota Timberwolves"
+}
+{
+    "date": "2017-01-21", 
+    "hs": "112", 
+    "ht": "Charlotte Hornets", 
+    "id": "game_0021600652", 
+    "time": "FINAL", 
+    "vs": "105", 
+    "vt": "Brooklyn Nets"
+}
+{
+    "date": "2017-01-16", 
+    "hs": "120", 
+    "ht": "Washington Wizards", 
+    "id": "game_0021600614", 
+    "time": "FINAL", 
+    "vs": "101", 
+    "vt": "Portland Trail Blazers"
+}
+{
+    "date": "2017-01-20", 
+    "hs": "108", 
+    "ht": "Los Angeles Lakers", 
+    "id": "game_0021600649", 
+    "time": "FINAL", 
+    "vs": "95", 
+    "vt": "Indiana Pacers"
+}
+{
+    "date": "2017-01-20", 
+    "hs": "114", 
+    "ht": "New Orleans Pelicans", 
+    "id": "game_0021600645", 
+    "time": "FINAL", 
+    "vs": "143", 
+    "vt": "Brooklyn Nets"
+}
+{
+    "date": "2017-01-14", 
+    "hs": "107", 
+    "ht": "Chicago Bulls", 
+    "id": "game_0021600602", 
+    "time": "FINAL", 
+    "vs": "99", 
+    "vt": "New Orleans Pelicans"
+}
+{
+    "date": "2017-01-25", 
+    "hs": "105", 
+    "ht": "New Orleans Pelicans", 
+    "id": "game_0021600686", 
+    "time": "FINAL", 
+    "vs": "114", 
+    "vt": "Oklahoma City Thunder"
+}
+{
+    "date": "2017-01-17", 
+    "hs": "109", 
+    "ht": "Brooklyn Nets", 
+    "id": "game_0021600622", 
+    "time": "FINAL", 
+    "vs": "119", 
+    "vt": "Toronto Raptors"
+}
+{
+    "date": "2017-01-19", 
+    "hs": "118", 
+    "ht": "San Antonio Spurs", 
+    "id": "game_0021600639", 
+    "time": "FINAL", 
+    "vs": "104", 
+    "vt": "Denver Nuggets"
+}
+{
+    "date": "2017-01-30", 
+    "hs": "104", 
+    "ht": "Miami Heat", 
+    "id": "game_0021600719", 
+    "time": "FINAL", 
+    "vs": "96", 
+    "vt": "Brooklyn Nets"
+}
+{
+    "date": "2017-01-18", 
+    "hs": "118", 
+    "ht": "New Orleans Pelicans", 
+    "id": "game_0021600631", 
+    "time": "FINAL", 
+    "vs": "98", 
+    "vt": "Orlando Magic"
+}
+{
+    "date": "2017-01-29", 
+    "hs": "101", 
+    "ht": "San Antonio Spurs", 
+    "id": "game_0021600717", 
+    "time": "FINAL", 
+    "vs": "105", 
+    "vt": "Dallas Mavericks"
+}
+{
+    "date": "2017-01-12", 
+    "hs": "134", 
+    "ht": "San Antonio Spurs", 
+    "id": "game_0021600588", 
+    "time": "FINAL", 
+    "vs": "94", 
+    "vt": "Los Angeles Lakers"
+}
+{
+    "date": "2017-01-26", 
+    "hs": "103", 
+    "ht": "Minnesota Timberwolves", 
+    "id": "game_0021600691", 
+    "time": "FINAL", 
+    "vs": "109", 
+    "vt": "Indiana Pacers"
+}
+{
+    "date": "2017-01-17", 
+    "hs": "122", 
+    "ht": "San Antonio Spurs", 
+    "id": "game_0021600625", 
+    "time": "FINAL", 
+    "vs": "114", 
+    "vt": "Minnesota Timberwolves"
+}
+{
+    "date": "2017-01-27", 
+    "hs": "115", 
+    "ht": "Indiana Pacers", 
+    "id": "game_0021600696", 
+    "time": "FINAL", 
+    "vs": "111", 
+    "vt": "Sacramento Kings"
+}
